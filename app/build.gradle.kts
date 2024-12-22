@@ -9,6 +9,7 @@ plugins {
 dependencies {
     implementation("org.apache.commons:commons-text")
     implementation(project(":utilities"))
+    implementation("io.dropwizard:dropwizard-core:4.0.11") 
 }
 
 application {

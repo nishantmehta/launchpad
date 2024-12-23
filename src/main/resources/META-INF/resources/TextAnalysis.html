@@ -6,12 +6,11 @@
     <title>Text Response App</title>
 </head>
 <body>
-<h1>
-<div id="response">
-    {#if responseText}
-    <p>Server response(reversed!): {responseText}</p>
-    {/if}
-</div>
-</h1>
+<h1>Enter some text:</h1>
+
+<form id="myForm" action="/process" method="post">
+    <input type="text" name="inputText" placeholder="Enter text here" />
+    <button type="submit">Submit</button>
+</form>
 </body>
 </html>

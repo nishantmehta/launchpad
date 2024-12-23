@@ -1,0 +1,20 @@
+.cosmic-header {
+    background-image: url('starry-sky.jpg'); /* Replace with your image */
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.starry-main {
+    background-color: #111;
+    color: #fff;
+    padding: 50px;
+}
+
+.nebula-footer {
+    background-image: linear-gradient(to right, #333, #000);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
